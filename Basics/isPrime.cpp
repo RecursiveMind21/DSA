@@ -1,27 +1,29 @@
-#include<iostream>
+//program to check whether the entered number is prime or not 
+
+#include<iostream>                          //header file
 using namespace std;
 
-bool isPrime(int num)
+bool isPrime(int num)                       //user defined funcrion for checking prime number
 {   
-    if(num <= 1){
+    if(num <= 1){                           //edge case
         return true;
     }
 
-    for(int i = 2; i<num; i++){
+    for(int i = 2; i<num; i++){             //to check whether the number is prime or not 
     
-        if((num%i)==0)
+        if((num%i)==0)                      
             return false;
     }
     return true;
 }
 
-int main()
+int main()                                  //main function
 {
-    int num;
-    cout << "Enter a number to checked as prime:";
+    int num;                                            //declaring variable for input
+    cout << "Enter a number to checked as prime:";      //for input from user
     cin >> num;
 
-    if(isPrime(num))
+    if(isPrime(num))                                                //calling user defined function
         cout << "The number " << num << " is prime." << endl;
 
     else 
