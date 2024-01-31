@@ -19,9 +19,15 @@ bool isPrime(int num)                       //user defined funcrion for checking
 
 int main()                                  //main function
 {
+    Again:
+
     int num;                                            //declaring variable for input
-    cout << "Enter a number to checked as prime:";      //for input from user
-    cin >> num;
+    cout << "Enter a positive number to checked as prime:";      //for input from user
+    cin >> num; 
+
+    if(num < 0){
+        goto Again;
+    }
 
     if(isPrime(num))                                                //calling user defined function
         cout << "The number " << num << " is prime." << endl;
