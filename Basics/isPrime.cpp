@@ -34,4 +34,6 @@ int main()                                  //main function
 
     else 
         cout << "The number " << num << " is not prime." << endl;
+
+    return 0;
 }

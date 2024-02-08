@@ -43,4 +43,5 @@ int main(){                                         //main function
 
     fibo(element);                  //calling user defined function
 
+    return 0;
 }
