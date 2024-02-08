@@ -1,13 +1,14 @@
-#include<iostream>
+//program using class
+#include<iostream>      //header file
 #include<string.h>
 using namespace std; 
 
-class Hero
+class Hero                  //declaring class
 {
-    private:
+    private:            //private access modifier
     int health;
 
-    public:
+    public:             //public access modifier
     char name[20];
     char level;
 
@@ -33,8 +34,6 @@ int main()
     //creation of object
     Hero h1;
 
-    
-
     strcpy(h1.name, "Hunter");                      //we need to use strcpy as char array does not
     cout << "Name: " << h1.name << endl;            //support == operator
 
@@ -55,7 +54,12 @@ int main()
     h1.setHealth(h);
     
     cout << "Health: " << h1.getHealth() << endl;
-
     
+    /*
+        another way is to user function made inside class
 
+            h1.print();
+    */
+
+   return 0;
 }
