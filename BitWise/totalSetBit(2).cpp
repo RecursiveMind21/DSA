@@ -1,11 +1,15 @@
-#include<iostream>
+//program to calculate total number of set bits (1) in two number
+
+#include<iostream>          //header file
 using namespace std;
 
-void SetBit(int a, int b){
+// time complexity - O(a)  -> if a > b
+// time compplexity - O(b) -> if b > a
+void SetBit(int a, int b){          //function to calculate the number of set bit
 
     int count = 0;
 
-    while(a!=0 | b!=0){
+    while(a!=0 | b!=0){             //logic to calculate number of set bit
 
         if(a&1 == 1){
             count++;
@@ -16,7 +20,8 @@ void SetBit(int a, int b){
         }
         if(b&1 == 1){
             count++;
-            b = b >> 1;        }
+            b = b >> 1;        
+        }
         else{
             b = b >> 1;   
         }
@@ -26,7 +31,7 @@ void SetBit(int a, int b){
 
 }
 
-int main(){
+int main(){                         //main function
 
     int n1, n2;
     cout << "Enter first number:";
@@ -34,7 +39,9 @@ int main(){
     cout << "Enter second number:";
     cin >> n2;
 
-    SetBit(n1,n2);
+    SetBit(n1,n2);                  //call to set bit function
 
     return 0;
 }
+
+//this code is more effective for smaller value of a and b
