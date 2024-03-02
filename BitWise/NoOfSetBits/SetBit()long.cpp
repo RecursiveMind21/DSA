@@ -1,12 +1,14 @@
-#include<iostream>
+//program to calculate the sum of set bit of two numbers
+#include<iostream>                          //header file
 #include<math.h>
 using namespace std;
 
-int SetBit(int n){
+// time complexity -> O(log(n))
+int SetBit(int n){                          //function to return count of setbit
 
-    int count = 0;
+    int count = 0;      
 
-    while(n!=0){
+    while(n!=0){                           //logic to calculate count of set bit
 
         int rem = n%10;
 
@@ -19,11 +21,11 @@ int SetBit(int n){
     return count;
 }
 
-int Binary(int n){
+int Binary(int n){                      //function to convert decimal to binary
     
     int i = 0,ans = 0;
 
-    while(n!=0){
+    while(n!=0){                        //logic to convert decimal to binary
 
         int bit = n&1;
         ans = (bit * pow(10,i)) + ans;
@@ -31,10 +33,10 @@ int Binary(int n){
 
         i++;
     }
-    return ans;
+    return ans;                         //returning binary number;
 }
 
-int main(){
+int main(){                                     //main function
 
     int a,b;
     cout << "Enter the value of a: ";
@@ -54,3 +56,5 @@ int main(){
 
     return 0;
 }
+
+//this program is more effective if value of a and b is large.

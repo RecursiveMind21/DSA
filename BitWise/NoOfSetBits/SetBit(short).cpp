@@ -1,11 +1,15 @@
-#include<iostream>
+//program to calculate sum of count of set bit in two numbers
+#include<iostream>                          //header file
 using namespace std;
 
-int NoOfSetBit(int a,int b){
+//time complexity if a>b -> O(a)
+//time complexity if b>a -> O(b)
+// time complexity in any case is linear
+int NoOfSetBit(int a,int b){                //function to calculate set bit 
     
     int count = 0;
 
-    while(a!=0 | b!=0){
+    while(a!=0 | b!=0){                    //logic to calculate set bit count
 
         if(a & 1 == 1){
             count++;
@@ -19,7 +23,7 @@ int NoOfSetBit(int a,int b){
     return count;
 }
 
-int main(){
+int main(){                                 //main function
     int a,b;
 
     cout << "Enter value of a: ";
@@ -31,3 +35,6 @@ int main(){
 
     return 0;
 }
+
+
+//this program is only effective if values of a and b is smaller.
