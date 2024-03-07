@@ -1,0 +1,16 @@
+Q.1   	Find sum of all even number from 1 to n.
+Q.2	    Prime number
+Q.3	    Sum of all number from 1 to n.
+Q.4	    Fibonnaci Series
+Q.7	    Swtich case inside a infinite loop without using break statement in loop get out of the loop.
+Q.8 	Mini Calculator Program
+Q.9	    Number of notes of 100,50.20,1 required to fullfil the total amount
+Q.10	Power of a , b using functions.
+Q.11	Odd or even program in functions.
+Q.12	nCr Problem
+Q.13	Prime number in boolean function.
+Q.14 	AP = (3*n+7)	i/p -> n 	o/p -> nth term
+Q.16	Pass by value
+
+
+
