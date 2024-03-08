@@ -1,15 +1,16 @@
-#include<iostream>
+//program to exit switch inside infinte loop
+#include<iostream>              //header file
 using namespace std;
 
-int main(){
+int main(){                     //main function
 
     int num;
     cout << "Enter a number between 1 and 5: ";
     cin >> num;
 
-    while(1){
+    while(1){                   //infinite loop
 
-        switch(num){
+        switch(num){            //switch inside infinite loop
 
             case 1: cout << "one" << endl;
 
@@ -21,9 +22,9 @@ int main(){
 
             case 5: cout << "five" << endl;
 
-            default: exit(0);
+            default: exit(0);               //use of exit function to get out of infinite loop
 
-            exit(0);
+            exit(0);                    //use of exit function to get out of infinite loop
         }
 
     }

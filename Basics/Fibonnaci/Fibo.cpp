@@ -1,7 +1,8 @@
-#include<iostream>
+//program to calculate fibbonaci series 
+#include<iostream>                  //header file
 using namespace std;
 
-int main(){
+int main(){                         //main function
 
     int num;
     cout << "Enter the total terms in fibbonaci series: ";
@@ -10,7 +11,7 @@ int main(){
     int a = 0;
     int b = 1;
 
-    if(num == 0){
+    if(num == 0){                        //cases
         exit(0);
     }
 
@@ -27,7 +28,8 @@ int main(){
     if(num>2){
 
         cout << a << " " << b << " "; 
-
+        
+        //time complexity -> O(n)
         for(int i = 1; i <= (num-2); i++){
             sum = a+b;
             cout << sum << " " ;
