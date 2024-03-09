@@ -2,6 +2,7 @@
 #include<iostream>                  //header file
 using namespace std;
 
+//time complexity -> O(n)
 int factorial(int n){               //user defined function to calculate factorial
     
     int fact = 1;
