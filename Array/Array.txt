@@ -1,0 +1,43 @@
+Q.1	Initialize the whole array from any value.
+Q.2	Finding Max/Min in an array
+Q.3	Printing sum of all elements in an array
+Q.4	Linear Search
+Q.5	Reverse an Array
+Q.6	Swap alternate elements in an array
+
+Q.7	Find Unique (	You have given an array of size n. where n = 2m + 1.
+			Where m numbers are present twice and one number is present only 
+			once. You need to find and return that number which is unique in the
+			array. )
+
+Q.8	 Unique Occurance ( You have given an array of size n. we have to check 
+							whether the occurance of all element in an arrya is 
+							unique or not.
+							
+							n<=1000
+							-1000 <= arr[i] <= 1000)
+
+Q.9		Find Duplicate in Array (Only 1 number is occured twice return it)
+
+Q.10	Find all duplicate in array (Multiple number are occured twice return all of them)
+
+Q.11	Array Intersection (you have given two array find the common elements in both the 
+			    array)
+
+Q.12	Pair Sum (you have given a number s, find the pair of elements that is equal to the sum of the number s)
+
+Q.13	Triplets with Given Sum (you have given a number s, find the triple of elements that is equal to the 
+									sum of the number s)
+
+Q.14	Sort 0 and 1 ( i/p - arr[0,1,1,0,1,0] 	o/p - arr[0,0,0,1,1,1] )
+
+Q.15	Sort all elements ( i/p - arr[0,1,2,0,1,2] 	o/p - arr[0,0,1,1,2,2] )
+				 
+
+
+
+
+			LeetCode Questions
+
+1207.	Unique Number of Occurrences
+

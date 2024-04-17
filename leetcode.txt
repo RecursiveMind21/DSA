@@ -1,0 +1,5 @@
+1281.	Subtract the prodcut and sum of digits of an integer
+191.	Number of 1 Bits
+7.	Reverse Integer
+1009.	Complement of Base 10 Integer
+231.	Power of Two

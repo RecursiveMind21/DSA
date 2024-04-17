@@ -1,0 +1,4 @@
+Q.5 	Decimal to Binary (for both postitive and negative)
+Q.6 	Binary to Decimal	
+Q.11	Odd or even program in functions.
+Q.15	Total number of setBits(1 bit) combined in 2 numbers.
