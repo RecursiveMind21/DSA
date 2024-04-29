@@ -2,22 +2,15 @@
 #include<iostream>
 using namespace std;
 
-int DuplicateElement(int *arr, int n){      //time complexity -> O(n^2)
+int DuplicateElement(int *arr, int n){      //time complexity -> O(n)
     
     for(int i = 0; i<n; i++){
-        
-        bool isUnique = false;
 
-        for(int j = 0; j<n; j++){
-            
-            if(i != j && arr[i] == arr[j]){
-                isUnique = true;
-            }
+        int index = abs(arr[i]) - 1;
+        if(arr[index] < 0){
+            return abs(arr[i]);
         }
-
-        if(isUnique){
-            return arr[i];
-        }
+        arr[index] = -arr[index];
     }
 
     return -1;

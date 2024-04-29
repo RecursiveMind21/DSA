@@ -1,7 +1,8 @@
+//program to check whether the gicen array has duplicate or not using xor bitwise operator
 #include<iostream>
 using namespace std;
 
-int Duplicate(int *arr,int n){
+int Duplicate(int *arr,int n){          //time complexity -> O(n^2)
 
     int ans = 0;
 

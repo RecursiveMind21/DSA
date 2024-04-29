@@ -1,15 +1,12 @@
+//code to check whether the array is sorted or not(increasing order)
 #include<iostream>
 using namespace std;
 
 bool CheckArr(int *arr, int n){
 
-    for(int i = 0;i<n;i++){
-        for(int j = i+1; j<n; j++){
-
-            if(arr[i]>arr[j]){
-                return false;
-            }
-        }
+    for(int i = 0;(i+1)<n;i++){         //time complextiy -> O(n^2)
+        if(arr[i] > arr[i+1])
+            return false;
     }
     return true;
 }
