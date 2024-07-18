@@ -9,7 +9,7 @@ void printcount(int num) {
     }
 
     printcount(num - 1);
-    cout << num << " ";
+    cout << num << " "<<endl;
 }
 
 int main() {
